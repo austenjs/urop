@@ -9,8 +9,14 @@ epochs : 20
 learning_rate : 0.001
 loss_function : "categorical_crossentropy"
 metrics : "accuracy"
+path_to_weights : '..\weights\weight.h5'
+path_to_weights_a : '..\weights\weight_a.h5'
+path_to_weights_b : '..\weights\weight_b.h5'
 
 # Path to train data
 path_to_data :  '..\data\'
 path_to_train_csv : '..\data\Train.csv'
 path_to_test_csv : '..\data\Test.csv'
+
+# Adversarial training
+epsilon : 0.15
